@@ -7,8 +7,9 @@ public class ArrayDefinition {
         names[1] = "Boris Smirnov";
         names[2] = "Vladimir Popov";
         names[3] = "Anatoliy Godunov";
-        for (int i = 0; i < 4; i++) {
-            System.out.println(names[i]);
-        }
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }

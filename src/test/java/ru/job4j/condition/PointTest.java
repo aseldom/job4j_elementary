@@ -55,4 +55,19 @@ public class PointTest {
         double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void when329to998then9dot21() {
+        double expected = 9.27;
+        int x1 = 3;
+        int y1 = 2;
+        int z1 = 9;
+        int x2 = 9;
+        int y2 = 9;
+        int z2 = 8;
+        Point a = new Point(x1, y1, z1);
+        Point b = new Point(x2, y2, z2);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
